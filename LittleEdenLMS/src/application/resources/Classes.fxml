@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:id="classesPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="530.0" minWidth="1152.0" prefHeight="530.0" prefWidth="1152.0" styleClass="grade-body" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ClassesController">
+   <children>
+      <ImageView fitHeight="536.0" fitWidth="1154.0" layoutX="-1.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="-2.0">
+         <image>
+            <Image url="@images/background%20jungle.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="-1.0" prefHeight="530.0" prefWidth="1152.0" styleClass="grade-body" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane fx:id="reading" layoutX="476.0" layoutY="152.0" onMouseClicked="#loadReadingPage" prefHeight="183.0" prefWidth="183.0" stylesheets="@application.css" AnchorPane.topAnchor="150.0">
+               <styleClass>
+                  <String fx:value="grade-box" />
+                  <String fx:value="assignment-grade-box" />
+               </styleClass>
+               <children>
+                  <Label layoutX="55.0" layoutY="80.0" text="Reading" textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Regular" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Text fill="#f6cd5c" layoutX="164.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Classes">
+         <font>
+            <Font name="Roboto Bold" size="30.0" />
+         </font>
+      </Text>
+      <AnchorPane fx:id="math" layoutX="250.0" layoutY="152.0" onMouseClicked="#loadMathPage" prefHeight="183.0" prefWidth="183.0" stylesheets="@application.css" AnchorPane.topAnchor="150.0">
+         <styleClass>
+            <String fx:value="grade-box" />
+            <String fx:value="quiz-grade-box" />
+         </styleClass>
+         <children>
+            <Label layoutX="32.0" layoutY="80.0" text="Mathematics" textFill="WHITE">
+               <font>
+                  <Font name="Roboto Regular" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

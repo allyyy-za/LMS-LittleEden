@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="458.0" prefWidth="1147.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DevelopersController">
+   <children>
+      <ImageView fitHeight="536.0" fitWidth="1154.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="-2.0">
+         <image>
+            <Image url="@images/background%20jungle.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="-2.0" layoutY="-6.0" prefHeight="481.0" prefWidth="1156.0" styleClass="grade-body">
+         <children>
+            <Text fill="#f6cd5c" layoutX="511.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact Us">
+               <font>
+                  <Font name="Roboto Bold" size="30.0" />
+               </font>
+            </Text>
+            <Text layoutX="270.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We value our users so we want to know your thoughts and experiences using Little Eden. " textAlignment="CENTER" wrappingWidth="640.0659790039062" AnchorPane.leftAnchor="270.0" AnchorPane.rightAnchor="245.93402099609375">
+               <font>
+                  <Font name="Roboto Regular" size="16.0" />
+               </font>
+            </Text>
+            <AnchorPane layoutX="684.0" layoutY="143.0" prefHeight="186.0" prefWidth="260.0" styleClass="welcome-banner">
+               <children>
+                  <Text layoutX="19.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email: littleeden@gmail.com" wrappingWidth="231.62179565429688" AnchorPane.leftAnchor="18.0">
+                     <font>
+                        <Font name="Roboto Regular" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="17.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telephone Number: 525-1578" wrappingWidth="231.62179565429688" AnchorPane.leftAnchor="18.0">
+                     <font>
+                        <Font name="Roboto Regular" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="19.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address: General Luna corner Muralla Street, Intramuros, Manila, 1002 Metro Manila" wrappingWidth="231.62179565429688" AnchorPane.leftAnchor="18.0">
+                     <font>
+                        <Font name="Roboto Regular" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="18.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact us through: " AnchorPane.leftAnchor="18.0">
+                     <font>
+                        <Font name="Roboto Bold" size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="168.0" layoutY="142.0" prefHeight="302.0" prefWidth="429.0" styleClass="welcome-banner">
+               <children>
+                  <Text layoutX="15.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Feedback">
+                     <font>
+                        <Font name="Roboto Bold" size="30.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="tf_name" layoutX="89.0" layoutY="87.0" prefHeight="30.0" prefWidth="250.0" promptText="Name" />
+                  <TextField fx:id="tf_email" layoutX="89.0" layoutY="128.0" prefHeight="30.0" prefWidth="250.0" promptText="Email Address" />
+                  <TextArea fx:id="ta_comment" layoutX="88.0" layoutY="168.0" prefHeight="60.0" prefWidth="250.0" promptText="Your Comment" wrapText="true" />
+                  <Button layoutX="153.0" layoutY="256.0" mnemonicParsing="false" onMouseClicked="#sendFeedback" prefHeight="28.0" prefWidth="117.0" style="-fx-background-color: #f6cd5c;" text="Send Feedback" textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Regular" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

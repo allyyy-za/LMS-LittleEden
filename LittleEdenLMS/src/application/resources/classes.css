@@ -1,0 +1,1539 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.classesPage {
+	-fx-position: relative;
+	-fx-pref-width: 1152px;
+	-fx-pref-height: 600px;
+
+	-fx-background-color: #FFFFFF;
+}
+
+.mathClassPage {
+	-fx-position: relative;
+	-fx-pref-width: 1152px;
+	-fx-pref-height: 600px;
+
+	-fx-background-color: #FFFFFF;
+}
+
+.navBar {
+	-fx-background-color: #FFFFFF;
+}
+.gradesButton {
+	-fx-background-color: none;
+	-fx-position: absolute;
+	-fx-width: 65px;
+    -fx-height: 18px;
+	-fx-left: 911px;
+	-fx-top: 26px;
+
+	-fx-font-family: Roboto;
+	-fx-font-style: normal;
+	-fx-font-size: 20px;
+	-fx-line-height: 18px;
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-text-fill: #000000;
+	-fx-effect: none;	
+}
+
+.gradesButton:hover {
+	-fx-position: absolute;
+	-fx-width: 115px;
+	-fx-height: 71px;
+	-fx-left: 504px;
+	-fx-top: -1px;
+
+	-fx-background-color: rgba(246, 205, 92, 0.4);
+}
+
+.quizzesButton {
+	-fx-background-color: none;
+	-fx-position: absolute;
+	-fx-width: 65px;
+    -fx-height: 18px;
+	-fx-left: 798px;
+	-fx-top: 26px;
+
+	-fx-font-family: Roboto;
+	-fx-font-style: normal;
+	-fx-font-size: 20px;
+	-fx-line-height: 18px;
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-text-fill: #000000;
+	-fx-effect: none;	
+}
+
+.quizzesButton:hover{
+	-fx-position: absolute;
+	-fx-width: 115px;
+	-fx-height: 71px;
+	-fx-left: 628px;
+	-fx-top: -1px;
+
+	-fx-background-color: rgba(246, 205, 92, 0.4);
+}
+.assignmentsButton {
+	-fx-background-color: none;
+	-fx-position: absolute;
+	-fx-width: 120px;
+    -fx-height: 18px;
+	-fx-left: 638px;
+	-fx-top: 28px;
+
+	-fx-font-family: Roboto;
+	-fx-font-style: normal;
+	-fx-font-size: 20px;
+	-fx-line-height: 18px;
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-text-fill: #000000;
+	-fx-effect: none;
+}
+
+.assignmentsButton:hover {
+	-fx-position: absolute;
+	-fx-width: 139px;
+	-fx-height: 71px;
+	-fx-left: 628px;
+	-fx-top: -1px;
+
+	-fx-background-color: rgba(246, 205, 92, 0.4);
+}
+.classesButton {
+	-fx-background-color: none;
+	-fx-position: absolute;
+	-fx-width: 72px;
+    -fx-height: 18px;
+	-fx-left: 526px;
+	-fx-top: 28px;
+
+	-fx-font-family: Roboto;
+	-fx-font-style: normal;
+	-fx-font-size: 20px;
+	-fx-line-height: 18px;
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-text-fill: #000000;
+	-fx-effect: none;
+}
+
+.classesButton:hover {
+	-fx-position: absolute;
+	-fx-width: 115px;
+	-fx-height: 71px;
+	-fx-left: 504px;
+	-fx-top: -1px;
+
+	-fx-background-color: rgba(246, 205, 92, 0.4);
+}
+
+.gradesreadingButton {
+	-fx-background-color: none;
+	-fx-position: absolute;
+	-fx-width: 65px;
+    -fx-height: 18px;
+	-fx-left: 911px;
+	-fx-top: 26px;
+
+	-fx-font-family: Roboto;
+	-fx-font-style: normal;
+	-fx-font-size: 20px;
+	-fx-line-height: 18px;
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-text-fill: #000000;
+	-fx-effect: none;	
+}
+
+.gradesreadingButton:hover {
+	-fx-position: absolute;
+	-fx-width: 115px;
+	-fx-height: 71px;
+	-fx-left: 504px;
+	-fx-top: -1px;
+
+	-fx-background-color: rgba(246, 205, 92, 0.4);
+}
+
+.quizzesreadingButton {
+	-fx-background-color: none;
+	-fx-position: absolute;
+	-fx-width: 65px;
+    -fx-height: 18px;
+	-fx-left: 798px;
+	-fx-top: 26px;
+
+	-fx-font-family: Roboto;
+	-fx-font-style: normal;
+	-fx-font-size: 20px;
+	-fx-line-height: 18px;
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-text-fill: #000000;
+	-fx-effect: none;	
+}
+
+.quizzesreadingButton:hover{
+	-fx-position: absolute;
+	-fx-width: 115px;
+	-fx-height: 71px;
+	-fx-left: 628px;
+	-fx-top: -1px;
+
+	-fx-background-color: rgba(246, 205, 92, 0.4);
+}
+
+.assignmentsreadingButton {
+	-fx-background-color: none;
+	-fx-position: absolute;
+	-fx-width: 120px;
+    -fx-height: 18px;
+	-fx-left: 638px;
+	-fx-top: 28px;
+
+	-fx-font-family: Roboto;
+	-fx-font-style: normal;
+	-fx-font-size: 20px;
+	-fx-line-height: 18px;
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-text-fill: #000000;
+	-fx-effect: none;
+}
+
+.assignmentsreadingButton:hover {
+	-fx-position: absolute;
+	-fx-width: 139px;
+	-fx-height: 71px;
+	-fx-left: 628px;
+	-fx-top: -1px;
+
+	-fx-background-color: rgba(246, 205, 92, 0.4);
+}
+
+.classesreadingButton {
+	-fx-background-color: none;
+	-fx-position: absolute;
+	-fx-width: 72px;
+    -fx-height: 18px;
+	-fx-left: 526px;
+	-fx-top: 28px;
+
+	-fx-font-family: Roboto;
+	-fx-font-style: normal;
+	-fx-font-size: 20px;
+	-fx-line-height: 18px;
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-text-fill: #000000;
+	-fx-effect: none;
+}
+
+.classesreadingButton:hover {
+	-fx-position: absolute;
+	-fx-width: 115px;
+	-fx-height: 71px;
+	-fx-left: 504px;
+	-fx-top: -1px;
+
+	-fx-background-color: rgba(246, 205, 92, 0.4);
+}
+
+.rhymesClassButton {
+	-fx-position: absolute;
+	-fx-width: 170px;
+	-fx-height: 170px;
+	-fx-left: 562px;
+	-fx-top: 161px;
+
+	-fx-background-color: rgba(237, 241, 45, 0.5);
+	-fx-mix-blend-mode: normal;
+	-fx-border-width: 11px;
+	-fx-border-style: solid; 
+	-fx-border-color: #F5ED25;
+	
+	-fx-font-family: Caveat Brush;
+	-fx-font-style: normal;
+	-fx-font-size: 30px;
+	-fx-line-height: 0px;
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-text-alignment: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-text-fill: #FFFFFF;	
+}
+
+.rhymesClassButton:hover {
+	-fx-position: absolute;
+	-fx-width: 170px;
+	-fx-height: 170px;
+	-fx-left: 562px;
+	-fx-top: 161px;
+
+	-fx-background-color: #3A86FF;
+}
+.readingClassButton {
+	-fx-position: absolute;
+	-fx-width: 170px;
+	-fx-height: 170px;
+	-fx-left: 334px;
+	-fx-top: 161px;
+
+	-fx-background-color: rgba(241, 128, 45, 0.5);
+	-fx-mix-blend-mode: normal;
+	-fx-border-width: 11px;
+	-fx-border-style: solid; 
+	-fx-border-color: #F5AE25;
+	
+	-fx-font-family: Caveat Brush;
+	-fx-font-style: normal;
+	-fx-font-size: 30px;
+	-fx-line-height: 0px;
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-text-alignment: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-text-fill: #FFFFFF;	
+}
+
+.readingClassButton:hover {
+	-fx-position: absolute;
+	-fx-width: 170px;
+	-fx-height: 170px;
+	-fx-left: 334px;
+	-fx-top: 161px;
+
+	-fx-background-color: #3A86FF;
+}
+.mathClassButton {
+	-fx-position: absolute;
+	-fx-width: 170px;
+	-fx-height: 170px;
+	-fx-left: 106px;
+	-fx-top: 161px;
+
+	-fx-background-color: rgba(241, 45, 45, 0.5);
+	-fx-mix-blend-mode: normal;
+	-fx-border-width: 11px;
+	-fx-border-style: solid; 
+	-fx-border-color: #F52525;
+	
+	-fx-font-family: Caveat Brush;
+	-fx-font-style: normal;
+	-fx-font-size: 30px;
+	-fx-line-height: 0px;
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-text-alignment: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-text-fill: #FFFFFF;	
+}
+
+.mathClassButton:hover {
+	-fx-position: absolute;
+	-fx-width: 170px;
+	-fx-height: 170px;
+	-fx-left: 106px;
+	-fx-top: 161px;
+
+	-fx-background-color: #3A86FF;
+}
+
+.filipinoClassButton {
+	-fx-position: absolute;
+	-fx-width: 170px;
+	-fx-height: 170px;
+	-fx-left: 562px;
+	-fx-top: 365px;
+
+	-fx-background-color: rgba(131, 45, 241, 0.5);
+	-fx-mix-blend-mode: normal;
+	-fx-border-width: 11px;
+	-fx-border-style: solid; 
+	-fx-border-color: #BF25F5;
+	
+	-fx-font-family: Caveat Brush;
+	-fx-font-style: normal;
+	-fx-font-size: 30px;
+	-fx-line-height: 0px;
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-text-alignment: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-text-fill: #FFFFFF;	
+}
+
+.filipinoClassButton:hover {
+	-fx-position: absolute;
+	-fx-width: 170px;
+	-fx-height: 170px;
+	-fx-left: 562px;
+	-fx-top: 365px;
+
+	-fx-background-color: #3A86FF;
+}
+
+.peClassButton {
+	-fx-position: absolute;
+	-fx-width: 170px;
+	-fx-height: 170px;
+	-fx-left: 334px;
+	-fx-top: 365px;
+
+	-fx-background-color: rgba(45, 65, 241, 0.5);
+	-fx-mix-blend-mode: normal;
+	-fx-border-width: 11px;
+	-fx-border-style: solid; 
+	-fx-border-color: #256CF5;
+	
+	-fx-font-family: Caveat Brush;
+	-fx-font-style: normal;
+	-fx-font-size: 30px;
+	-fx-line-height: 0px;
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-text-alignment: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-text-fill: #FFFFFF;	
+}
+
+.peClassButton:hover {
+	-fx-position: absolute;
+	-fx-width: 170px;
+	-fx-height: 170px;
+	-fx-left: 334px;
+	-fx-top: 365px;
+
+	-fx-background-color: #3A86FF;
+}
+
+.scienceClassButton {
+	-fx-position: absolute;
+	-fx-width: 170px;
+	-fx-height: 170px;
+	-fx-left: 106px;
+	-fx-top: 365px;
+
+	-fx-background-color: rgba(73, 241, 45, 0.5);
+	-fx-mix-blend-mode: normal;
+	-fx-border-width: 11px;
+	-fx-border-style: solid; 
+	-fx-border-color: #29F525;
+	
+	-fx-font-family: Caveat Brush;
+	-fx-font-style: normal;
+	-fx-font-size: 30px;
+	-fx-line-height: 0px;
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-text-alignment: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-text-fill: #FFFFFF;
+}
+
+.scienceClassButton:hover {
+	-fx-position: absolute;
+	-fx-width: 170px;
+	-fx-height: 170px;
+	-fx-left: 106px;
+	-fx-top: 365px;
+
+	-fx-background-color: #3A86FF;
+}
+
+.bgboardClass {
+	-fx-position: absolute;
+	-fx-width: 973px;
+	-fx-height: 463px;
+	-fx-left: 94px;
+	-fx-top: 104px;
+}
+
+.sidebarClass {
+	-fx-position: absolute;
+	-fx-width: 272px;
+	-fx-height: 461px;
+	-fx-left: 94px;
+	-fx-top: 104px;
+}
+
+.sidebarreadingClass {
+	-fx-position: absolute;
+	-fx-width: 272px;
+	-fx-height: 461px;
+	-fx-left: 94px;
+	-fx-top: 104px;
+}
+
+.actualBoard {
+	-fx-background-color: #FFFFFF;
+}
+
+.actualboardReading {
+	-fx-background-color: #FFFFFF;
+}
+
+.shapesButton {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 48px;
+	-fx-left: 124px;
+	-fx-top: 172px;
+
+	-fx-background-color: #E4CB9B;
+}
+
+.shapesButton:hover {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 48px;
+	-fx-left: 124px;
+	-fx-top: 172px;
+
+	-fx-background-color: #F6CD5C;
+}
+
+.colorsButton {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 67px;
+	-fx-left: 124px;
+	-fx-top: 266px;
+
+	-fx-background-color: #E4CB9B;
+}
+
+.colorsButton:hover {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 67px;
+	-fx-left: 124px;
+	-fx-top: 266px;
+
+	-fx-background-color: #F6CD5C;
+}
+
+.numbersenseButton {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 67px;
+	-fx-left: 124px;
+	-fx-top: 266px;
+
+	-fx-background-color: #E4CB9B;
+}
+
+.numbersenseButton:hover {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 67px;
+	-fx-left: 124px;
+	-fx-top: 266px;
+
+	-fx-background-color: #F6CD5C;
+}
+
+.backClassesButton {
+	-fx-position: absolute;
+	-fx-width: 163px;
+	-fx-height: 37px;
+	-fx-left: 146px;
+	-fx-top: 484px;
+
+	-fx-background-color: #F9C598;
+	-fx-border-radius: 5px;
+}
+
+.backClassesButton:hover {
+	-fx-position: absolute;
+	-fx-width: 200px;
+	-fx-height: 60px;
+	-fx-left: 146px;
+	-fx-top: 484px;
+
+	-fx-background-color: #F5AE25;
+	-fx-border-radius: 5px;
+}
+
+.alphabetsButton {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 48px;
+	-fx-left: 124px;
+	-fx-top: 172px;
+
+	-fx-background-color: #E4CB9B;
+}
+
+.alphabetsButton:hover {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 48px;
+	-fx-left: 124px;
+	-fx-top: 172px;
+
+	-fx-background-color: #F6CD5C;
+}
+
+.phonicsButton {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 67px;
+	-fx-left: 124px;
+	-fx-top: 266px;
+
+	-fx-background-color: #E4CB9B;
+}
+
+.phonicsButton:hover {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 67px;
+	-fx-left: 124px;
+	-fx-top: 266px;
+
+	-fx-background-color: #F6CD5C;
+}
+	
+.fruitsvegesButton {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 67px;
+	-fx-left: 124px;
+	-fx-top: 266px;
+
+	-fx-background-color: #E4CB9B;
+}
+
+.fruitsvegesButton:hover {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 67px;
+	-fx-left: 124px;
+	-fx-top: 266px;
+
+	-fx-background-color: #F6CD5C;
+}
+
+.gobackreadingButton {
+	-fx-position: absolute;
+	-fx-width: 163px;
+	-fx-height: 37px;
+	-fx-left: 146px;
+	-fx-top: 484px;
+
+	-fx-background-color: #F9C598;
+	-fx-border-radius: 5px;
+}
+
+.gobackreadingButton:hover {
+	-fx-position: absolute;
+	-fx-width: 163px;
+	-fx-height: 37px;
+	-fx-left: 146px;
+	-fx-top: 484px;
+
+	-fx-background-color: #F5AE25;
+	-fx-border-radius: 5px;
+}
+	
+
+.page1 {
+	-fx-background-color: #F9C598;
+}
+
+.text1 {
+	-fx-font-family: Roboto;
+	-fx-font-style: normal;
+	-fx-font-size: 18px;
+	-fx-line-height: 18px;
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-text-fill: #000000;
+	-fx-effect: none;	
+}
+
+.text1 {
+	-fx-font-family: Roboto; 
+}
+
+.circleButton {
+	-fx-background-color: none; 
+}
+
+.squareButton {
+	-fx-background-color: none; 
+}
+
+.rectangleButton {
+	-fx-background-color: none; 
+}
+
+.triangleButton {
+	-fx-background-color: none; 
+}
+
+.ovalButton {
+	-fx-background-color: none;
+}
+
+.diamondButton {
+	-fx-background-color: none;
+}
+
+.heartButton {
+	-fx-background-color: none;
+}
+
+.starButton {
+	-fx-background-color: none;
+}
+
+.mathVideoButton {
+	-fx-position: absolute;
+	-fx-width: 511px;
+	-fx-height: 54px;
+	-fx-left: 420px;
+	-fx-top: 460px;
+
+	-fx-background-color: #E77966;
+	-fx-border-radius: 70px;
+}
+
+.mathVideoButton:hover {
+	-fx-position: absolute;
+	-fx-width: 511px;
+	-fx-height: 54px;
+	-fx-left: 420px;
+	-fx-top: 460px;
+
+	-fx-background-color: pink;
+	-fx-border-radius: 70px;
+}
+
+.highWebView {
+	-fx-background-color: #E77966;
+}
+
+.bt1 {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 69px;
+	-fx-top: 451px;
+
+	-fx-background-color: #FBEBBE;
+}
+
+.bt1:hover {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 69px;
+	-fx-top: 451px;
+
+	-fx-background-color: blue;
+}
+
+.bt2 {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 69px;
+	-fx-top: 504px;
+
+	-fx-background-color: #F6CD5C;
+}
+
+.bt2:hover {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 69px;
+	-fx-top: 451px;
+
+	-fx-background-color: blue;
+}
+
+.bt3 {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 347px;
+	-fx-top: 451px;
+
+	-fx-background-color: #F9C598;
+}
+
+.bt3:hover {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 69px;
+	-fx-top: 451px;
+
+	-fx-background-color: blue;
+}
+
+.bt4 {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 347px;
+	-fx-top: 504px;
+
+	-fx-background-color: #BAD786;
+}
+
+.bt4:hover {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 69px;
+	-fx-top: 451px;
+
+	-fx-background-color: blue;
+}
+
+.pageColor {
+	-fx-background-color: #BAD786; 
+}
+
+.textpageColor {
+	-fx-font-family: Roboto;
+	-fx-font-style: normal;
+	-fx-font-size: 16px;
+	-fx-line-height: 18px;
+	
+	-fx-font-color: white;
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-text-fill: #FFFFFF;
+	-fx-effect: none;	
+}
+
+.videobuttonColor {
+	-fx-position: absolute;
+	-fx-width: 511px;
+	-fx-height: 54px;
+	-fx-left: 425px;
+	-fx-top: 388px;
+
+	-fx-background-color: #2A9E0D;
+	-fx-border-radius: 26px;
+}
+
+.videobuttonColor:hover {
+	-fx-position: absolute;
+	-fx-width: 511px;
+	-fx-height: 54px;
+	-fx-left: 425px;
+	-fx-top: 388px;
+
+	-fx-background-color: #67B753;
+	-fx-border-radius: 26px;
+}
+
+
+.colorWeb {
+	-fx-background-color: #2A8414;
+}
+
+.buttoncolorpage1 {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 69px;
+	-fx-top: 451px;
+
+	-fx-background-color: #FBEBBE;
+}
+
+.buttoncolorpage1:hover {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 69px;
+	-fx-top: 451px;
+
+	-fx-background-color: blue;
+}
+
+.buttoncolorpage2 {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 69px;
+	-fx-top: 504px;
+
+	-fx-background-color: #F6CD5C;
+}
+
+.buttoncolorpage2:hover {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 69px;
+	-fx-top: 451px;
+
+	-fx-background-color: blue;
+}
+
+
+.buttoncolorpage3 {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 347px;
+	-fx-top: 451px;
+
+	-fx-background-color: #F9C598;
+}
+
+.buttoncolorpage3:hover {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 347px;
+	-fx-top: 451px;
+
+	-fx-background-color: #F9C598;
+}
+
+.buttoncolorpage4 {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 347px;
+	-fx-top: 504px;
+
+	-fx-background-color: #F5AE25;
+}
+
+.buttoncolorpage4:hover {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 69px;
+	-fx-top: 451px;
+
+	-fx-background-color: blue;
+}
+
+.numberScroll {
+	-fx-background-color: #487ED5;
+}
+
+.numberText {
+	-fx-position: absolute;
+	-fx-width: 586px;
+	-fx-height: 70px;
+	-fx-left: 476px;
+	-fx-top: 231px;
+
+	-fx-font-family: Roboto;
+	-fx-font-style: normal;
+	-fx-font-weight: normal;
+	-fx-font-size: 18px;
+	-fx-line-height: 0px;
+/* or 0% */
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-font-color: #FFFFFF;
+}
+
+.letsplaytext1 {
+	-fx-font-weight: bold;
+}
+
+.letsplaytext2 {
+	-fx-font-weight: bold;
+}
+
+.letsplaytext3 {
+	-fx-font-weight: bold;
+}
+
+.letsplaytext4 {
+	-fx-font-weight: bold;
+}
+
+.letsplaytext5 {
+	-fx-font-weight: bold;
+}
+
+.numbervideoButton {
+	-fx-position: absolute;
+	-fx-width: 511px;
+	-fx-height: 54px;
+	-fx-left: 429px;
+	-fx-top: 316px;
+
+	-fx-background-color: #182F56;
+	-fx-border-radius: 26px;
+}
+
+.numbervideoButton:hover {
+	-fx-position: absolute;
+	-fx-width: 511px;
+	-fx-height: 54px;
+	-fx-left: 429px;
+	-fx-top: 316px;
+
+	-fx-background-color: blue;
+	-fx-border-radius: 26px;
+}
+
+.videoNumber {
+	-fx-background-color: #182F56;
+}
+
+.btnNumber1 {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 69px;
+	-fx-top: 451px;
+
+	-fx-background-color: #FBEBBE;
+}
+
+.btnNumber1:hover {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 69px;
+	-fx-top: 451px;
+
+	-fx-background-color: blue;
+}
+
+.btnNumber2 {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 69px;
+	-fx-top: 504px;
+
+	-fx-background-color: #F6CD5C;
+}
+
+.btnNumber2:hover {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 69px;
+	-fx-top: 451px;
+
+	-fx-background-color: blue;
+}
+
+.btnNumber3 {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 347px;
+	-fx-top: 451px;
+
+	-fx-background-color: #F9C598;
+}
+
+.btnNumber3:hover {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 347px;
+	-fx-top: 451px;
+
+	-fx-background-color: blue;
+}
+
+.btnNumber4 {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 347px;
+	-fx-top: 504px;
+
+	-fx-background-color: #F5AE25;
+}
+
+.btnNumber4:hover {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 69px;
+	-fx-top: 451px;
+
+	-fx-background-color: blue;
+}
+
+.alphabetPane {
+	-fx-background-color: #AB5392;
+}
+
+.textAlphabets {
+	-fx-position: absolute;
+	-fx-width: 586px;
+	-fx-height: 70px;
+	-fx-left: 476px;
+	-fx-top: 231px;
+
+	-fx-font-family: Roboto;
+	-fx-font-style: normal;
+	-fx-font-weight: normal;
+	-fx-font-size: 18px;
+	-fx-line-height: 0px;
+/* or 0% */
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-font-color: #000000;
+}
+
+.alphabetVideo {
+	-fx-position: absolute;
+	-fx-width: 511px;
+	-fx-height: 54px;
+	-fx-left: 429px;
+	-fx-top: 316px;
+
+	-fx-background-color: #250D25;
+	-fx-border-radius: 26px;
+}
+
+.alphabetVideo:hover {
+	-fx-position: absolute;
+	-fx-width: 511px;
+	-fx-height: 54px;
+	-fx-left: 429px;
+	-fx-top: 316px;
+
+	-fx-background-color: #8E268E;
+	-fx-border-radius: 26px;
+}
+
+.exampleText {
+	-fx-position: absolute;
+	-fx-width: 586px;
+	-fx-height: 70px;
+	-fx-left: 476px;
+	-fx-top: 231px;
+
+	-fx-font-family: Roboto;
+	-fx-font-style: normal;
+	-fx-font-weight: Bold;
+	-fx-font-size: 24px;
+	-fx-line-height: 0px;
+/* or 0% */
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-letter-spacing: 0.2px;
+}
+
+.navbarRhymes {
+	-fx-background-color: #FFFFFF;
+}
+
+.gradesbuttonRhymes {
+	-fx-background-color: none;
+	-fx-position: absolute;
+	-fx-width: 65px;
+    -fx-height: 18px;
+	-fx-left: 911px;
+	-fx-top: 26px;
+
+	-fx-font-family: Roboto;
+	-fx-font-style: normal;
+	-fx-font-size: 20px;
+	-fx-line-height: 18px;
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-text-fill: #000000;
+	-fx-effect: none;	
+}
+
+.gradesbuttonRhymes:hover {
+	-fx-position: absolute;
+	-fx-width: 115px;
+	-fx-height: 71px;
+	-fx-left: 504px;
+	-fx-top: -1px;
+
+	-fx-background-color: rgba(246, 205, 92, 0.4);
+}
+
+.quizzesbuttonRhymes {
+	-fx-background-color: none;
+	-fx-position: absolute;
+	-fx-width: 65px;
+    -fx-height: 18px;
+	-fx-left: 798px;
+	-fx-top: 26px;
+
+	-fx-font-family: Roboto;
+	-fx-font-style: normal;
+	-fx-font-size: 20px;
+	-fx-line-height: 18px;
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-text-fill: #000000;
+	-fx-effect: none;	
+}
+
+.quizzesbuttonRhymes:hover{
+	-fx-position: absolute;
+	-fx-width: 115px;
+	-fx-height: 71px;
+	-fx-left: 628px;
+	-fx-top: -1px;
+
+	-fx-background-color: rgba(246, 205, 92, 0.4);
+}
+
+.assignmentsbuttonRhymes {
+	-fx-background-color: none;
+	-fx-position: absolute;
+	-fx-width: 120px;
+    -fx-height: 18px;
+	-fx-left: 638px;
+	-fx-top: 28px;
+
+	-fx-font-family: Roboto;
+	-fx-font-style: normal;
+	-fx-font-size: 20px;
+	-fx-line-height: 18px;
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-text-fill: #000000;
+	-fx-effect: none;
+}
+
+.assignmentsbuttonRhymes:hover {
+	-fx-position: absolute;
+	-fx-width: 139px;
+	-fx-height: 71px;
+	-fx-left: 628px;
+	-fx-top: -1px;
+
+	-fx-background-color: rgba(246, 205, 92, 0.4);
+}
+
+.classesbuttonRhymes {
+	-fx-background-color: none;
+	-fx-position: absolute;
+	-fx-width: 72px;
+    -fx-height: 18px;
+	-fx-left: 526px;
+	-fx-top: 28px;
+
+	-fx-font-family: Roboto;
+	-fx-font-style: normal;
+	-fx-font-size: 20px;
+	-fx-line-height: 18px;
+
+	-fx-display: flex;
+	-fx-align-items: center;
+	-fx-letter-spacing: 0.2px;
+
+	-fx-text-fill: #000000;
+	-fx-effect: none;
+}
+
+.classesbuttonRhymes:hover {
+	-fx-position: absolute;
+	-fx-width: 115px;
+	-fx-height: 71px;
+	-fx-left: 504px;
+	-fx-top: -1px;
+
+	-fx-background-color: rgba(246, 205, 92, 0.4);
+}
+
+.rhymebutton1 {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 32px;
+	-fx-left: 119px;
+	-fx-top: 189px;
+
+	-fx-background-color: #E4CB9B;
+}	
+
+.rhymebutton1:hover {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 32px;
+	-fx-left: 119px;
+	-fx-top: 189px;
+
+	-fx-background-color: #F6CD5C;
+}	
+
+.rhymebutton2 {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 32px;
+	-fx-left: 119px;
+	-fx-top: 189px;
+
+	-fx-background-color: #E4CB9B;
+}	
+
+.rhymebutton2:hover {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 32px;
+	-fx-left: 119px;
+	-fx-top: 189px;
+
+	-fx-background-color: #F6CD5C;
+}	
+
+.rhymebutton3 {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 32px;
+	-fx-left: 119px;
+	-fx-top: 189px;
+
+	-fx-background-color: #E4CB9B;
+}	
+
+.rhymebutton3:hover {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 32px;
+	-fx-left: 119px;
+	-fx-top: 189px;
+
+	-fx-background-color: #F6CD5C;
+}	
+
+.rhymebutton4 {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 32px;
+	-fx-left: 119px;
+	-fx-top: 189px;
+
+	-fx-background-color: #E4CB9B;
+}	
+
+.rhymebutton4:hover {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 32px;
+	-fx-left: 119px;
+	-fx-top: 189px;
+
+	-fx-background-color: #F6CD5C;
+}	
+
+.rhymebutton5 {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 32px;
+	-fx-left: 119px;
+	-fx-top: 189px;
+
+	-fx-background-color: #E4CB9B;
+}	
+
+.rhymebutton5:hover {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 32px;
+	-fx-left: 119px;
+	-fx-top: 189px;
+
+	-fx-background-color: #F6CD5C;
+}	
+
+.rhymebutton6 {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 32px;
+	-fx-left: 119px;
+	-fx-top: 189px;
+
+	-fx-background-color: #E4CB9B;
+}	
+
+.rhymebutton6:hover {
+	-fx-position: absolute;
+	-fx-width: 211px;
+	-fx-height: 32px;
+	-fx-left: 119px;
+	-fx-top: 189px;
+
+	-fx-background-color: #F6CD5C;
+}	
+
+.backrhymesButton {
+	-fx-position: absolute;
+	-fx-width: 163px;
+	-fx-height: 37px;
+	-fx-left: 146px;
+	-fx-top: 484px;
+
+	-fx-background-color: #F9C598;
+	-fx-border-radius: 5px;
+}
+
+.backrhymesButton:hover {
+	-fx-position: absolute;
+	-fx-width: 163px;
+	-fx-height: 37px;
+	-fx-left: 146px;
+	-fx-top: 484px;
+
+	-fx-background-color: #F5AE25;
+	-fx-border-radius: 5px;
+}
+
+.fruitsandvegesBoard {
+	-fx-background-color: #AE3030
+}
+
+.alphabetsanchorVideo {
+	-fx-background-color: #561056;
+}
+
+.btnalphabets1 {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 69px;
+	-fx-top: 451px;
+
+	-fx-background-color: #FBEBBE;
+}
+
+.btnalphabets1:hover {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 69px;
+	-fx-top: 451px;
+
+	-fx-background-color: blue;
+}
+
+.btnalphabets2 {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 69px;
+	-fx-top: 504px;
+
+	-fx-background-color: #F6CD5C;
+}
+
+.btnalphabets2:hover {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 69px;
+	-fx-top: 451px;
+
+	-fx-background-color: blue;
+}
+
+.btnalphabets3 {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 347px;
+	-fx-top: 451px;
+
+	-fx-background-color: #F9C598;
+}
+
+.btnalphabets3:hover {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 347px;
+	-fx-top: 451px;
+
+	-fx-background-color: blue;
+}
+
+.btnalphabets4 {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 347px;
+	-fx-top: 504px;
+
+	-fx-background-color: #F5AE25;
+}
+
+.btnalphabets4:hover {
+	-fx-position: absolute;
+	-fx-width: 218px;
+	-fx-height: 41px;
+	-fx-left: 69px;
+	-fx-top: 451px;
+
+	-fx-background-color: blue;
+}

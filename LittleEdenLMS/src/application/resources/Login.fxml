@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="534.0" layoutX="252.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/background.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="375.0" prefHeight="400.0" prefWidth="329.0" styleClass="header">
+         <children>
+            <Button layoutX="135.0" layoutY="304.0" mnemonicParsing="false" onAction="#LoginOnAction" prefWidth="80.0" style="-fx-background-color: fffcf6;" text="Login">
+               <font>
+                  <Font name="Roboto Regular" size="14.0" />
+               </font>
+            </Button>
+            <TextField fx:id="Email" layoutX="72.0" layoutY="186.0" prefWidth="205.0" promptText="Email">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="Password" layoutX="72.0" layoutY="239.0" prefHeight="30.0" prefWidth="205.0" promptText="Password">
+               <font>
+                  <Font name="Roboto Regular" size="14.0" />
+               </font>
+            </PasswordField>
+            <Label fx:id="LoginMessage" alignment="CENTER" contentDisplay="CENTER" layoutX="72.0" layoutY="349.0" prefHeight="17.0" prefWidth="205.0">
+               <font>
+                  <Font name="Roboto Regular" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="-2.0" prefHeight="400.0" prefWidth="400.0" styleClass="left-pane">
+         <children>
+            <Text fill="#f6cd5c" layoutX="58.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LITTLE EDEN">
+               <font>
+                  <Font name="Roboto Black" size="40.0" />
+               </font>
+            </Text>
+            <Text fill="#f6cd5c" layoutX="58.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This is a learning management system made for pre-school students. This application aims to cater different learning styles of students." wrappingWidth="285.0">
+               <font>
+                  <Font name="Roboto Regular" size="16.0" />
+               </font>
+            </Text>
+            <Button layoutX="58.0" layoutY="259.0" mnemonicParsing="false" onAction="#RegisterOnAction" prefWidth="80.0" style="-fx-background-color: f6cd5c;" text="Register">
+               <font>
+                  <Font name="Roboto Regular" size="14.0" />
+               </font>
+            </Button>
+            <Hyperlink layoutX="53.0" layoutY="354.0" onAction="#showAdminLogin" style="-fx-text-fill: #f6cd5c;" text="Go to Admin">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Hyperlink>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

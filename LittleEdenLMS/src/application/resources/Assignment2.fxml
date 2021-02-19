@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="Two" prefHeight="431.0" prefWidth="797.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Assignment2Controller">
+   <children>
+      <ScrollPane prefHeight="431.0" prefWidth="797.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="800.0" prefWidth="780.0">
+               <children>
+                  <ImageView fitHeight="619.0" fitWidth="569.0" layoutX="117.0" layoutY="80.0">
+                     <image>
+                        <Image url="@images/Numbers1.png" />
+                     </image>
+                  </ImageView>
+                  <RadioButton layoutX="166.0" layoutY="206.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Four" textFill="WHITE">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="Five1" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton id="five" fx:id="five" layoutX="214.0" layoutY="206.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Five" textFill="WHITE" toggleGroup="$Five1" />
+                  <RadioButton layoutX="264.0" layoutY="206.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Seven" textFill="WHITE" toggleGroup="$Five1" />
+                  <RadioButton layoutX="348.0" layoutY="206.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="One" textFill="WHITE">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="Three2" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton layoutX="396.0" layoutY="206.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Two" textFill="WHITE" toggleGroup="$Three2" />
+                  <RadioButton id="three" fx:id="three" layoutX="446.0" layoutY="206.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Three" textFill="WHITE" toggleGroup="$Three2" />
+                  <RadioButton layoutX="527.0" layoutY="206.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Four" textFill="WHITE">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="Seven3" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton id="seven" fx:id="seven" layoutX="575.0" layoutY="206.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Seven" textFill="WHITE" toggleGroup="$Seven3" />
+                  <RadioButton layoutX="625.0" layoutY="206.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Nine" textFill="WHITE" toggleGroup="$Seven3" />
+                  <RadioButton id="two" fx:id="two" layoutX="165.0" layoutY="347.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Two" textFill="WHITE">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="Two4" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton layoutX="213.0" layoutY="347.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Four" textFill="WHITE" toggleGroup="$Two4" />
+                  <RadioButton layoutX="263.0" layoutY="347.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Six" textFill="WHITE" toggleGroup="$Two4" />
+                  <RadioButton id="six" fx:id="six" layoutX="347.0" layoutY="347.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Six" textFill="WHITE">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="Six5" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton layoutX="395.0" layoutY="347.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Seven" textFill="WHITE" toggleGroup="$Six5" />
+                  <RadioButton layoutX="445.0" layoutY="347.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Eight" textFill="WHITE" toggleGroup="$Six5" />
+                  <RadioButton layoutX="527.0" layoutY="347.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Zero" textFill="WHITE">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="One6" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton id="one" fx:id="one" layoutX="575.0" layoutY="347.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="One" textFill="WHITE" toggleGroup="$One6" />
+                  <RadioButton layoutX="625.0" layoutY="347.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Nine" textFill="WHITE" toggleGroup="$One6" />
+                  <RadioButton layoutX="165.0" layoutY="485.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Three" textFill="WHITE">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="Four7" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton id="four" fx:id="four" layoutX="213.0" layoutY="485.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Four" textFill="WHITE" toggleGroup="$Four7" />
+                  <RadioButton layoutX="263.0" layoutY="485.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Five" textFill="WHITE" toggleGroup="$Four7" />
+                  <RadioButton id="seven2" fx:id="seven2" layoutX="346.0" layoutY="485.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Seven" textFill="WHITE">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="Seven8" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton layoutX="394.0" layoutY="485.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Eight" textFill="WHITE" toggleGroup="$Seven8" />
+                  <RadioButton layoutX="444.0" layoutY="485.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Nine" textFill="WHITE" toggleGroup="$Seven8" />
+                  <RadioButton id="zero" fx:id="zero" layoutX="526.0" layoutY="485.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Zero" textFill="WHITE">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="Zero9" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton layoutX="574.0" layoutY="485.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Nine" textFill="WHITE" toggleGroup="$Zero9" />
+                  <RadioButton layoutX="624.0" layoutY="485.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Two" textFill="WHITE" toggleGroup="$Zero9" />
+                  <RadioButton layoutX="227.0" layoutY="653.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Seven" textFill="WHITE">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="Nine10" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton layoutX="275.0" layoutY="653.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Eight" textFill="WHITE" toggleGroup="$Nine10" />
+                  <RadioButton id="nine" fx:id="nine" layoutX="325.0" layoutY="653.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Nine" textFill="WHITE" toggleGroup="$Nine10" />
+                  <RadioButton layoutX="477.0" layoutY="653.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="One" textFill="WHITE">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="Ten11" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton layoutX="516.0" layoutY="653.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Four" textFill="WHITE" toggleGroup="$Ten11" />
+                  <RadioButton id="ten" fx:id="ten" layoutX="570.0" layoutY="653.0" mnemonicParsing="false" opacity="0.56" prefHeight="31.0" prefWidth="23.0" text="Ten" textFill="WHITE" toggleGroup="$Ten11" />
+                  <Button cache="true" cacheHint="QUALITY" layoutX="623.0" layoutY="728.0" mnemonicParsing="false" onAction="#submitEvent" prefHeight="30.0" prefWidth="102.0" style="-fx-background-color: #f6cd5c;" text="Submit" textFill="WHITE" />
+                  <Text layoutX="222.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COUNTING 1, 2, 3" textAlignment="CENTER" wrappingWidth="346.8157501220703">
+                     <font>
+                        <Font name="Roboto Bold" size="34.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#f6cd5c" layoutX="249.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Assignment #2" textAlignment="CENTER" wrappingWidth="291.8157501220703">
+                     <font>
+                        <Font name="Roboto Regular" size="22.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="458.0" prefWidth="1147.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GradesController">
+   <children>
+      <ImageView fitHeight="536.0" fitWidth="1154.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="-2.0">
+         <image>
+            <Image url="@images/background%20jungle.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="-2.0" layoutY="-6.0" prefHeight="481.0" prefWidth="1156.0" styleClass="grade-body">
+         <children>
+            <Text fill="#f6cd5c" layoutX="519.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About Us">
+               <font>
+                  <Font name="Roboto Bold" size="30.0" />
+               </font>
+            </Text>
+            <Text layoutX="250.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="      Our mission is to create a user-friendly learning management system that cater different learning styles students and to make them more effective and well-rounded learners" textAlignment="CENTER" wrappingWidth="640.0659790039062" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="265.93402099609375">
+               <font>
+                  <Font name="Roboto Regular" size="16.0" />
+               </font>
+            </Text>
+            <AnchorPane layoutX="222.0" layoutY="190.0" prefHeight="250.0" prefWidth="200.0" styleClass="passion-box">
+               <children>
+                  <Text fill="WHITE" layoutX="56.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASSION" AnchorPane.topAnchor="106.0">
+                     <font>
+                        <Font name="Roboto Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="25.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Regardless of whom we work for, we put all of our hearts into it. Quality, Details,  Stories. It's what we do." textAlignment="CENTER" wrappingWidth="146.0" AnchorPane.topAnchor="138.0" />
+                  <ImageView fitHeight="77.0" fitWidth="100.0" layoutX="50.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="485.0" layoutY="190.0" prefHeight="250.0" prefWidth="200.0" styleClass="craft-box">
+               <children>
+                  <Text fill="WHITE" layoutX="68.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CRAFT" AnchorPane.topAnchor="106.0">
+                     <font>
+                        <Font name="Roboto Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="24.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We combine all of our creative dispositions  to produce a remarkable experience tailored for your needs." textAlignment="CENTER" wrappingWidth="146.0" AnchorPane.topAnchor="138.0" />
+                  <ImageView fitHeight="77.0" fitWidth="100.0" layoutX="50.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="749.0" layoutY="191.0" prefHeight="250.0" prefWidth="200.0" styleClass="listen-box">
+               <children>
+                  <Text fill="WHITE" layoutX="63.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LISTEN" AnchorPane.topAnchor="106.0">
+                     <font>
+                        <Font name="Roboto Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="27.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Keeping an open ears for  for our valued users to further improve the quality of our service and provide the best experience." textAlignment="CENTER" wrappingWidth="146.0" AnchorPane.topAnchor="138.05078125" />
+                  <ImageView fitHeight="77.0" fitWidth="100.0" layoutX="50.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

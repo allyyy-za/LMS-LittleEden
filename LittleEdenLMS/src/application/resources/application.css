@@ -1,0 +1,271 @@
+.login-btn {
+	-fx-background-color: #f6cd5c;
+}
+
+.left-pane {
+	-fx-background-color: #FFfcf6;
+	-fx-background-radius: 30;
+	
+}
+
+.admin-left {
+	-fx-background-color: #f6cd5c;
+	-fx-background-radius: 30;
+}
+
+.admin-right {
+	-fx-background-color: rgba(241,217,150,0.6);	
+}
+
+.date-box {
+	-fx-background-radius: 20;
+	-fx-background-color: #f6cd5c;
+}
+
+/* Registration Page */ 
+
+.reg-body {
+	-fx-background-color: #FFFFFF;
+	-fx-background-radius: 30;
+}
+
+/* Learning Style Assessment Page  */
+
+.header {
+	-fx-background-color: rgba(246, 205, 92, 0.6);
+}
+
+.mainpane {
+	-fx-background-color: #FFFFFF;
+	-fx-background-radius: 20;
+}
+
+.header-text {
+	-fx-effect: dropshadow(gaussian, black, 8, 0, 2, 2);	
+}
+
+/* Homepage */
+
+.menu-bar {
+	-fx-background-color: #FFFFFF;
+	-fx-effect: dropshadow(gaussian, black,10, 0, 0, 0);
+}
+
+.menu-btn {
+	-fx-background-color: #FFFFFF;
+	-fx-background-radius: 0;
+}
+
+.menu-btn:hover {
+	-fx-background-color: rgba(246, 205, 92, 0.6);
+	-fx-background-radius: 0;
+}
+
+.menu-btn:pressed {
+	-fx-background-color: rgba(246, 205, 92, 0.6);
+	-fx-background-radius: 0;
+}
+.welcome-banner {
+	-fx-background-color: rgba(246, 205, 92, 0.4);
+}
+
+.welcome-text {
+	-fx-font: 36px Roboto;
+	-fx-font-weight: bold;
+	
+}
+
+.welcome-name {
+	-fx-font: 32px Roboto;
+	-fx-font-weight: bold;
+}
+
+.homepage-box {
+	-fx-background-color: #FFFFFF;
+	-fx-border-color: rgba(246, 205, 92, 0.4);
+	-fx-effect: dropshadow(gaussian, black, 5, 0, 0, 0);
+	-fx-background-radius: 20px;
+	-fx-border-radius: 20px;
+	-fx-border-width: 3px;
+}
+
+.classes-btn {
+	-fx-background-color:  #EA816F;
+	-fx-background-radius: 10px;
+	-fx-effect: dropshadow(gaussian, black, 5, 0, 0, 0);
+	-fx-text-fill: #FFFFFF;
+}
+
+.classes-btn:hover {
+	-fx-background-color:  rgba(234,129,111,0.9);
+	-fx-background-radius: 10px;
+	-fx-effect: dropshadow(gaussian, black, 5, 0, 0, 0);
+	-fx-text-fill: #FFFFFF;
+}
+
+.assignments-btn {
+	-fx-background-color: #679CF2;
+	-fx-background-radius: 10px;
+	-fx-effect: dropshadow(gaussian, black, 5, 0, 0, 0);
+	-fx-text-fill: #FFFFFF;
+}
+
+.assignments-btn:hover {
+	-fx-background-color:  rgba(103,156,242,0.9);
+	-fx-background-radius: 10px;
+	-fx-effect: dropshadow(gaussian, black, 5, 0, 0, 0);
+	-fx-text-fill: #FFFFFF;
+}
+
+.quizzes-btn {
+	-fx-background-color: #BAD786;
+	-fx-background-radius: 10px;
+	-fx-effect: dropshadow(gaussian, black, 5, 0, 0, 0);
+	-fx-text-fill: #FFFFFF;
+}
+
+.quizzes-btn:hover {
+	-fx-background-color:  rgba(186,215,134,0.9);
+	-fx-background-radius: 10px;
+	-fx-effect: dropshadow(gaussian, black, 5, 0, 0, 0);
+	-fx-text-fill: #FFFFFF;
+}
+
+.profile-box {
+	-fx-background-color: #FFFFFF;
+	-fx-border-color: rgba(246, 205, 92, 0.4);
+	-fx-effect: dropshadow(gaussian, black, 5, 0, 0, 0);
+	-fx-background-radius: 20px;
+	-fx-border-radius: 20px;
+	-fx-border-width: 3px;
+}
+
+/* Grades page */
+
+.grade-body {
+	-fx-background-color: rgba(246, 205, 92, 0.1);
+}
+
+.grade-box {
+	-fx-background-radius: 20;
+}
+
+.quiz-grade-box {
+	-fx-background-color: rgba(234,129,111,0.8);
+}
+
+.assignment-grade-box {
+	-fx-background-color: rgba(103,156,242,0.8);
+}
+
+.anchor-box:hover {
+	-fx-background-color: #f6cd5c;
+}
+
+
+/* quiz example */
+
+.passion-box {
+	-fx-background-color: rgba(234,129,111,0.8);
+}
+
+.craft-box {
+	-fx-background-color: rgba(103,156,242,0.8);
+}
+
+.listen-box {
+	-fx-background-color: rgba(186,215,134,0.9);
+}
+
+
+.scroll-pane {
+	-fx-background-color: transparent;
+	-fx-background: transparent;
+}
+
+.scroll-anchor {
+	-fx-background-color: transparent;
+}
+
+
+
+.radio-text {
+	-fx-text-fill: #000000;
+}
+
+
+.quiz-radio-text {
+	-fx-text-fill: #0e451f;
+}
+
+/* Classes Page */
+
+.hello-banner {
+	-fx-background-color: #f6cd5c;
+	-fx-background-radius: 10;
+}
+
+.shapes-box {
+	-fx-background-radius: 10;
+	-fx-effect: dropshadow(gaussian, black, 10, 0, 0, 0);
+}
+
+
+.red-box {
+	-fx-background-color: rgba(234,129,111,1);
+}
+
+.yellow-box {
+	-fx-background-color: #f6cd5c;
+}
+
+.blue-box {
+	-fx-background-color: #679cf2;
+}
+
+.green-box {
+	-fx-background-color: #BAD786;
+}
+
+.math-button {
+	-fx-background-color: #f6cd5c;
+}
+
+.math-button:hover {
+	-fx-background-color: #FFFFFF;
+	-fx-text-fill: #F6cd5c;
+}
+
+/* admin homepage */
+
+
+.table-view .column-header {
+    -fx-background-color: -fx-table-cell-border-color, #f6cd5c;
+}
+
+
+.table-view .column-header {
+    -fx-text-fill: white;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #FFFFFF;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; 
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, rgba(246, 205, 92, 0.3);
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.admin-btn {
+	-fx-background-color: #f6cd5c;
+}
+
+.admin-btn:hover {
+	-fx-background-color: #FFFFFF;
+	-fx-text-fill: #f6cd5c;
+	-fx-effect: dropshadow(gaussian, black, 5, 0, 0, 0); 
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="main" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="1152.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.QuizzesController">
+   <children>
+      <ImageView fitHeight="536.0" fitWidth="1154.0" layoutX="20.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@images/background%20jungle.png" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="530.0" prefWidth="1152.0" styleClass="grade-body" stylesheets="@application.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane fx:id="readingQuiz" layoutX="485.0" layoutY="134.0" onMouseClicked="#showReadingQuiz" prefHeight="200.0" prefWidth="200.0" stylesheets="@application.css" AnchorPane.topAnchor="145.0">
+               <styleClass>
+                  <String fx:value="grade-box" />
+                  <String fx:value="assignment-grade-box" />
+               </styleClass>
+               <children>
+                  <Label layoutX="9.0" layoutY="12.0" text="Quiz #2" textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Regular" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="53.0" layoutY="47.0" text="READING" textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Regular" size="20.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="109.0" fitWidth="165.0" layoutX="45.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/books.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="250.0" layoutY="137.0" onMouseClicked="#showMathQuiz" prefHeight="200.0" prefWidth="200.0" stylesheets="@application.css" AnchorPane.topAnchor="145.0">
+         <styleClass>
+            <String fx:value="grade-box" />
+            <String fx:value="quiz-grade-box" />
+         </styleClass>
+         <children>
+            <Label layoutX="9.0" layoutY="12.0" text="Quiz #1" textFill="WHITE">
+               <font>
+                  <Font name="Roboto Regular" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="29.0" layoutY="48.0" text="MATHEMATICS" textFill="WHITE" AnchorPane.topAnchor="48.0">
+               <font>
+                  <Font name="Roboto Regular" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="109.0" fitWidth="165.0" layoutX="40.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/image%203.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Text fill="#f6cd5c" layoutX="164.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Quizzes">
+         <font>
+            <Font name="Roboto Bold" size="30.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

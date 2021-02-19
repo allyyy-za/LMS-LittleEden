@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="main" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="1152.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.QuizMathController">
+   <children>
+      <ImageView fitHeight="536.0" fitWidth="1154.0" layoutX="20.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="-2.0">
+         <image>
+            <Image url="@images/background%20jungle.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="119.0" layoutY="105.0" prefHeight="530.0" prefWidth="1152.0" styleClass="grade-body" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="459.0" fitWidth="875.0" layoutX="144.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="144.0" AnchorPane.rightAnchor="144.0">
+               <image>
+                  <Image url="@images/blackboard.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="204.0" layoutY="84.0" minHeight="344.0" minWidth="749.0" prefHeight="344.0" prefWidth="749.0">
+               <children>
+                  <ScrollPane minHeight="344.0" minWidth="749.0" prefHeight="344.0" prefWidth="749.0" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <content>
+                      <AnchorPane minHeight="2333.0" minWidth="733.0" prefHeight="2333.0" prefWidth="733.0">
+                           <children>
+                              <Text fill="WHITE" layoutX="24.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose the shape of the object.">
+                                 <font>
+                                    <Font name="Roboto Regular" size="20.0" />
+                                 </font>
+                              </Text>
+                              <RadioButton fx:id="circle" layoutX="351.0" layoutY="238.0" mnemonicParsing="false" text="Circle" AnchorPane.topAnchor="238.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="Clock" />
+                                 </toggleGroup>
+                              </RadioButton>
+                              <RadioButton layoutX="469.0" layoutY="238.0" mnemonicParsing="false" text="Square" toggleGroup="$Clock" AnchorPane.topAnchor="238.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton layoutX="603.0" layoutY="239.0" mnemonicParsing="false" text="Rectangle" toggleGroup="$Clock" AnchorPane.topAnchor="238.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </RadioButton>
+                              <ImageView fitHeight="205.0" fitWidth="163.0" layoutX="64.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/Clock.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="108.0" fitWidth="139.0" layoutX="324.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-btn">
+                                 <image>
+                                    <Image url="@images/Circle1.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="108.0" fitWidth="139.0" layoutX="447.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/Square1.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="108.0" fitWidth="139.0" layoutX="572.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/rectangle1.png" />
+                                 </image>
+                              </ImageView>
+                              <RadioButton layoutX="351.0" layoutY="470.0" mnemonicParsing="false" text="Circle">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="Window" />
+                                 </toggleGroup>
+                              </RadioButton>
+                              <RadioButton fx:id="square" layoutX="469.0" layoutY="470.0" mnemonicParsing="false" text="Square" toggleGroup="$Window">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton layoutX="603.0" layoutY="471.0" mnemonicParsing="false" text="Rectangle" toggleGroup="$Window">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </RadioButton>
+                              <ImageView fitHeight="205.0" fitWidth="163.0" layoutX="64.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/window.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="108.0" fitWidth="139.0" layoutX="324.0" layoutY="363.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-btn">
+                                 <image>
+                                    <Image url="@images/Circle1.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="108.0" fitWidth="139.0" layoutX="447.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/Square1.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="108.0" fitWidth="139.0" layoutX="572.0" layoutY="363.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/rectangle1.png" />
+                                 </image>
+                              </ImageView>
+                              <RadioButton layoutX="347.0" layoutY="706.0" mnemonicParsing="false" text="Square" AnchorPane.topAnchor="706.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="Watermelon" />
+                                 </toggleGroup>
+                              </RadioButton>
+                              <RadioButton fx:id="triangle" layoutX="467.0" layoutY="706.0" mnemonicParsing="false" text="Triangle" toggleGroup="$Watermelon" AnchorPane.topAnchor="706.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton layoutX="606.0" layoutY="707.0" mnemonicParsing="false" text="Rectangle" toggleGroup="$Watermelon" AnchorPane.topAnchor="706.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </RadioButton>
+                              <ImageView fitHeight="205.0" fitWidth="163.0" layoutX="67.0" layoutY="565.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/watermelon.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="108.0" fitWidth="139.0" layoutX="327.0" layoutY="599.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-btn">
+                                 <image>
+                                    <Image url="@images/Square1.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="94.0" fitWidth="108.0" layoutX="452.0" layoutY="604.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/triangle1.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="108.0" fitWidth="139.0" layoutX="575.0" layoutY="599.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/rectangle1.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="WHITE" layoutX="24.0" layoutY="780.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose the color of the object.">
+                                 <font>
+                                    <Font name="Roboto Regular" size="20.0" />
+                                 </font>
+                              </Text>
+                              <RadioButton layoutX="339.0" layoutY="938.0" mnemonicParsing="false" text="Red" AnchorPane.topAnchor="938.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="Dolphin" />
+                                 </toggleGroup>
+                              </RadioButton>
+                              <RadioButton fx:id="blue" layoutX="471.0" layoutY="938.0" mnemonicParsing="false" text="Blue" toggleGroup="$Dolphin" AnchorPane.topAnchor="938.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton layoutX="593.0" layoutY="938.0" mnemonicParsing="false" text="Green" toggleGroup="$Dolphin" AnchorPane.topAnchor="938.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </RadioButton>
+                              <ImageView fitHeight="205.0" fitWidth="163.0" layoutX="63.0" layoutY="819.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/dolphin.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="108.0" fitWidth="139.0" layoutX="323.0" layoutY="822.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-btn" AnchorPane.topAnchor="822.0">
+                                 <image>
+                                    <Image url="@images/Red.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="108.0" fitWidth="139.0" layoutX="571.0" layoutY="822.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="822.0">
+                                 <image>
+                                    <Image url="@images/Green.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="108.0" fitWidth="139.0" layoutX="449.0" layoutY="822.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-btn" AnchorPane.topAnchor="822.0">
+                                 <image>
+                                    <Image url="@images/Blue.png" />
+                                 </image>
+                              </ImageView>
+                              <RadioButton layoutX="339.0" layoutY="1153.0" mnemonicParsing="false" text="Red">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="Crocodile" />
+                                 </toggleGroup>
+                              </RadioButton>
+                              <RadioButton layoutX="471.0" layoutY="1153.0" mnemonicParsing="false" text="Blue" toggleGroup="$Crocodile">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton fx:id="green" layoutX="593.0" layoutY="1153.0" mnemonicParsing="false" text="Green" toggleGroup="$Crocodile">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </RadioButton>
+                              <ImageView fitHeight="123.0" fitWidth="212.0" layoutX="63.0" layoutY="1050.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/Crocodile.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="108.0" fitWidth="139.0" layoutX="323.0" layoutY="1037.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-btn">
+                                 <image>
+                                    <Image url="@images/Red.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="108.0" fitWidth="139.0" layoutX="571.0" layoutY="1037.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/Green.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="108.0" fitWidth="139.0" layoutX="449.0" layoutY="1037.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-btn">
+                                 <image>
+                                    <Image url="@images/Blue.png" />
+                                 </image>
+                              </ImageView>
+                              <RadioButton fx:id="red" layoutX="346.0" layoutY="1352.0" mnemonicParsing="false" text="Red">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="Bag" />
+                                 </toggleGroup>
+                              </RadioButton>
+                              <RadioButton layoutX="478.0" layoutY="1352.0" mnemonicParsing="false" text="Blue" toggleGroup="$Bag">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton layoutX="600.0" layoutY="1352.0" mnemonicParsing="false" text="Green" toggleGroup="$Bag">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </RadioButton>
+                              <ImageView fitHeight="205.0" fitWidth="163.0" layoutX="70.0" layoutY="1233.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/Bag.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="108.0" fitWidth="139.0" layoutX="330.0" layoutY="1236.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-btn">
+                                 <image>
+                                    <Image url="@images/Red.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="108.0" fitWidth="139.0" layoutX="578.0" layoutY="1236.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/Green.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="108.0" fitWidth="139.0" layoutX="456.0" layoutY="1236.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-btn">
+                                 <image>
+                                    <Image url="@images/Blue.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="WHITE" layoutX="24.0" layoutY="1476.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Count and choose the number of objects.">
+                                 <font>
+                                    <Font name="Roboto Regular" size="20.0" />
+                                 </font>
+                              </Text>
+                              <ImageView fitHeight="176.0" fitWidth="505.0" layoutX="126.0" layoutY="1511.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/balloons.png" />
+                                 </image>
+                              </ImageView>
+                              <RadioButton layoutX="196.0" layoutY="1702.0" mnemonicParsing="false" text="4 - Four">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="Balloons" />
+                                 </toggleGroup>
+                              </RadioButton>
+                              <RadioButton fx:id="nine" layoutX="328.0" layoutY="1702.0" mnemonicParsing="false" text="9 - Nine" toggleGroup="$Balloons">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton layoutX="450.0" layoutY="1702.0" mnemonicParsing="false" text="7 - Seven" toggleGroup="$Balloons">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </RadioButton>
+                              <ImageView fitHeight="176.0" fitWidth="505.0" layoutX="125.0" layoutY="1749.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/hearts.png" />
+                                 </image>
+                              </ImageView>
+                              <RadioButton fx:id="five" layoutX="195.0" layoutY="1940.0" mnemonicParsing="false" text="5 - Five">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="Hearts" />
+                                 </toggleGroup>
+                              </RadioButton>
+                              <RadioButton layoutX="327.0" layoutY="1940.0" mnemonicParsing="false" text="6 - Six" toggleGroup="$Hearts">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton layoutX="449.0" layoutY="1940.0" mnemonicParsing="false" text="4 - Four" toggleGroup="$Hearts">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </RadioButton>
+                              <ImageView fitHeight="176.0" fitWidth="505.0" layoutX="128.0" layoutY="1996.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/pencils.png" />
+                                 </image>
+                              </ImageView>
+                              <RadioButton layoutX="198.0" layoutY="2187.0" mnemonicParsing="false" text="6 - Six">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="Pencils" />
+                                 </toggleGroup>
+                              </RadioButton>
+                              <RadioButton layoutX="330.0" layoutY="2187.0" mnemonicParsing="false" text="8 - Eight" toggleGroup="$Pencils">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton fx:id="seven" layoutX="452.0" layoutY="2187.0" mnemonicParsing="false" text="7 - Seven" toggleGroup="$Pencils">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </RadioButton>
+                              <Button layoutX="605.0" layoutY="2279.0" mnemonicParsing="false" onAction="#submitEvent" style="-fx-background-color: #FFFFFF;" text="Submit">
+                                 <font>
+                                    <Font name="Roboto Regular" size="16.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

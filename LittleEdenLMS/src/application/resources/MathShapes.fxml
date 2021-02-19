@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.Double?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="423.0" prefWidth="661.0" styleClass="welcome-banner" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MathShapesController">
+   <children>
+      <ScrollPane prefHeight="423.0" prefWidth="661.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2887.0" prefWidth="645.0">
+               <children>
+                  <AnchorPane layoutX="37.0" layoutY="102.0" prefHeight="42.0" prefWidth="571.0" styleClass="hello-banner">
+                     <children>
+                        <Text layoutX="23.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello there, Little Eden! Today, we're going to learn about shapes!">
+                           <font>
+                              <Font name="Roboto Regular" size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <Text layoutX="247.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SHAPES">
+                     <font>
+                        <Font name="Roboto Bold" size="40.0" />
+                     </font>
+                  </Text>
+                  <AnchorPane layoutX="43.0" layoutY="172.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: #ea816f;" styleClass="shapes-box" stylesheets="@application.css">
+                     <children>
+                        <Circle fill="#fffcf6" layoutX="75.0" layoutY="68.0" radius="46.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+                        <Text layoutX="48.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CIRCLE" AnchorPane.topAnchor="124.0">
+                           <font>
+                              <Font name="Roboto Regular" size="16.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="251.0" layoutY="172.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: #679cf2;" styleClass="shapes-box" stylesheets="@application.css">
+                     <children>
+                        <Text layoutX="48.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SQUARE" AnchorPane.topAnchor="124.0">
+                           <font>
+                              <Font name="Roboto Regular" size="16.0" />
+                           </font>
+                        </Text>
+                        <BorderPane layoutX="30.0" layoutY="21.0" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #FFfcf6;" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="455.0" layoutY="172.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: #BAD786;" styleClass="shapes-box" stylesheets="@application.css">
+                     <children>
+                        <Text layoutX="31.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RECTANGLE" AnchorPane.topAnchor="124.0">
+                           <font>
+                              <Font name="Roboto Regular" size="16.0" />
+                           </font>
+                        </Text>
+                        <BorderPane layoutX="10.0" layoutY="21.0" prefHeight="91.0" prefWidth="128.0" style="-fx-background-color: #FFfcf6;" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="41.0" layoutY="356.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: #9fe1db;" styleClass="shapes-box" stylesheets="@application.css">
+                     <children>
+                        <Text layoutX="38.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TRIANGLE" AnchorPane.topAnchor="124.0">
+                           <font>
+                              <Font name="Roboto Regular" size="16.0" />
+                           </font>
+                        </Text>
+                        <Polygon fill="#fffcf6" layoutX="75.0" layoutY="74.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+                          <points>
+                            <Double fx:value="-50.0" />
+                            <Double fx:value="40.0" />
+                            <Double fx:value="50.0" />
+                            <Double fx:value="40.0" />
+                            <Double fx:value="0.0" />
+                            <Double fx:value="-60.0" />
+                          </points>
+                        </Polygon>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="249.0" layoutY="356.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: #AA9efb;" styleClass="shapes-box" stylesheets="@application.css">
+                     <children>
+                        <Text layoutX="55.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OVAL" AnchorPane.topAnchor="126.0">
+                           <font>
+                              <Font name="Roboto Regular" size="16.0" />
+                           </font>
+                        </Text>
+                        <Ellipse fill="#fffcf6" layoutX="75.0" layoutY="66.0" radiusX="52.0" radiusY="37.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="453.0" layoutY="356.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: #fedc56;" styleClass="shapes-box" stylesheets="@application.css">
+                     <children>
+                        <Text layoutX="39.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DIAMOND" AnchorPane.topAnchor="126.0">
+                           <font>
+                              <Font name="Roboto Regular" size="16.0" />
+                           </font>
+                        </Text>
+                        <BorderPane layoutX="38.0" layoutY="30.0" prefHeight="75.0" prefWidth="75.0" rotate="45.0" style="-fx-background-color: #FFfcf6;" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="147.0" layoutY="542.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: pink;" styleClass="shapes-box" stylesheets="@application.css">
+                     <children>
+                        <Text layoutX="50.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HEART" AnchorPane.topAnchor="126.0">
+                           <font>
+                              <Font name="Roboto Regular" size="16.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="100.0" fitWidth="110.0" layoutX="23.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/heart.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="355.0" layoutY="542.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: #997950;" styleClass="shapes-box" stylesheets="@application.css">
+                     <children>
+                        <Text layoutX="55.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STAR" AnchorPane.topAnchor="126.0">
+                           <font>
+                              <Font name="Roboto Regular" size="16.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="100.0" fitWidth="110.0" layoutX="25.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/star.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Line endX="465.0" layoutX="138.0" layoutY="745.0" startX="-100.0" stroke="WHITE" strokeWidth="5.0" />
+                  <ImageView fitHeight="230.0" fitWidth="173.0" layoutX="66.0" layoutY="795.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Circle.jpg" />
+                     </image>
+                  </ImageView>
+                  <AnchorPane layoutX="311.0" layoutY="770.0" prefHeight="85.0" prefWidth="296.0" style="-fx-background-color: #f6cd5c;" styleClass="shapes-box">
+                     <children>
+                        <Text layoutX="33.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pizza">
+                           <font>
+                              <Font name="Roboto Regular" size="20.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="82.0" fitWidth="90.0" layoutX="161.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/pizza.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="311.0" layoutY="867.0" prefHeight="85.0" prefWidth="296.0" style="-fx-background-color: #f6cd5c;" styleClass="shapes-box">
+                     <children>
+                        <Text layoutX="202.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ball">
+                           <font>
+                              <Font name="Roboto Regular" size="20.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="82.0" fitWidth="90.0" layoutX="27.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/ball.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="310.0" layoutY="966.0" prefHeight="85.0" prefWidth="296.0" style="-fx-background-color: #f6cd5c;" styleClass="shapes-box">
+                     <children>
+                        <Text layoutX="33.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wheel">
+                           <font>
+                              <Font name="Roboto Regular" size="20.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="82.0" fitWidth="90.0" layoutX="161.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/wheel.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <ImageView fitHeight="230.0" fitWidth="173.0" layoutX="424.0" layoutY="1125.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Square%20Card.jpg" />
+                     </image>
+                  </ImageView>
+                  <AnchorPane layoutX="44.0" layoutY="1100.0" prefHeight="85.0" prefWidth="296.0" style="-fx-background-color: #f6cd5c;" styleClass="shapes-box">
+                     <children>
+                        <Text layoutX="33.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Box">
+                           <font>
+                              <Font name="Roboto Regular" size="20.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="82.0" fitWidth="90.0" layoutX="161.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/box.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="44.0" layoutY="1197.0" prefHeight="85.0" prefWidth="296.0" style="-fx-background-color: #f6cd5c;" styleClass="shapes-box">
+                     <children>
+                        <Text layoutX="174.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chessboard">
+                           <font>
+                              <Font name="Roboto Regular" size="20.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="82.0" fitWidth="90.0" layoutX="27.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/chessboard.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="43.0" layoutY="1296.0" prefHeight="85.0" prefWidth="296.0" style="-fx-background-color: #f6cd5c;" styleClass="shapes-box">
+                     <children>
+                        <Text layoutX="33.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dice">
+                           <font>
+                              <Font name="Roboto Regular" size="20.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="82.0" fitWidth="90.0" layoutX="161.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/dice.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <ImageView fitHeight="230.0" fitWidth="173.0" layoutX="65.0" layoutY="1460.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Rectangle%20Card.jpg" />
+                     </image>
+                  </ImageView>
+                  <AnchorPane layoutX="310.0" layoutY="1435.0" prefHeight="85.0" prefWidth="296.0" style="-fx-background-color: #f6cd5c;" styleClass="shapes-box">
+                     <children>
+                        <Text layoutX="33.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blackboard">
+                           <font>
+                              <Font name="Roboto Regular" size="20.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="82.0" fitWidth="90.0" layoutX="187.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/blackboard%20(1).png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="310.0" layoutY="1532.0" prefHeight="85.0" prefWidth="296.0" style="-fx-background-color: #f6cd5c;" styleClass="shapes-box">
+                     <children>
+                        <Text layoutX="202.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bus">
+                           <font>
+                              <Font name="Roboto Regular" size="20.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="82.0" fitWidth="90.0" layoutX="27.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/bus.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="309.0" layoutY="1631.0" prefHeight="85.0" prefWidth="296.0" style="-fx-background-color: #f6cd5c;" styleClass="shapes-box">
+                     <children>
+                        <Text layoutX="33.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Television">
+                           <font>
+                              <Font name="Roboto Regular" size="20.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="82.0" fitWidth="90.0" layoutX="161.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/monitor.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <ImageView fitHeight="230.0" fitWidth="173.0" layoutX="425.0" layoutY="1793.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Triangle%20Card.jpg" />
+                     </image>
+                  </ImageView>
+                  <AnchorPane layoutX="45.0" layoutY="1768.0" prefHeight="85.0" prefWidth="296.0" style="-fx-background-color: #f6cd5c;" styleClass="shapes-box">
+                     <children>
+                        <Text layoutX="33.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Icecream cone">
+                           <font>
+                              <Font name="Roboto Regular" size="20.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="82.0" fitWidth="90.0" layoutX="169.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/cone.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="45.0" layoutY="1865.0" prefHeight="85.0" prefWidth="296.0" style="-fx-background-color: #f6cd5c;" styleClass="shapes-box">
+                     <children>
+                        <Text layoutX="174.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pyramid">
+                           <font>
+                              <Font name="Roboto Regular" size="20.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="82.0" fitWidth="90.0" layoutX="27.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/pyramid.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="44.0" layoutY="1964.0" prefHeight="85.0" prefWidth="296.0" style="-fx-background-color: #f6cd5c;" styleClass="shapes-box">
+                     <children>
+                        <Text layoutX="33.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Party hat">
+                           <font>
+                              <Font name="Roboto Regular" size="20.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="82.0" fitWidth="90.0" layoutX="161.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/party%20hat.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <ImageView fitHeight="230.0" fitWidth="173.0" layoutX="65.0" layoutY="2120.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Oval%20Card.jpg" />
+                     </image>
+                  </ImageView>
+                  <AnchorPane layoutX="311.0" layoutY="2144.0" prefHeight="85.0" prefWidth="296.0" style="-fx-background-color: #f6cd5c;" styleClass="shapes-box">
+                     <children>
+                        <Text layoutX="33.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Watermelon">
+                           <font>
+                              <Font name="Roboto Regular" size="20.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="82.0" fitWidth="90.0" layoutX="161.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/watermelon%20(1).png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="311.0" layoutY="2241.0" prefHeight="85.0" prefWidth="296.0" style="-fx-background-color: #f6cd5c;" styleClass="shapes-box">
+                     <children>
+                        <Text layoutX="202.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lemon">
+                           <font>
+                              <Font name="Roboto Regular" size="20.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="82.0" fitWidth="90.0" layoutX="27.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/lemon.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <ImageView fitHeight="230.0" fitWidth="173.0" layoutX="425.0" layoutY="2453.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Diamond%20Card.jpg" />
+                     </image>
+                  </ImageView>
+                  <AnchorPane layoutX="45.0" layoutY="2477.0" prefHeight="85.0" prefWidth="296.0" style="-fx-background-color: #f6cd5c;" styleClass="shapes-box">
+                     <children>
+                        <Text layoutX="33.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kite">
+                           <font>
+                              <Font name="Roboto Regular" size="20.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="82.0" fitWidth="90.0" layoutX="161.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/kite.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="45.0" layoutY="2574.0" prefHeight="85.0" prefWidth="296.0" style="-fx-background-color: #f6cd5c;" styleClass="shapes-box">
+                     <children>
+                        <Text layoutX="174.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trowel">
+                           <font>
+                              <Font name="Roboto Regular" size="20.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="82.0" fitWidth="90.0" layoutX="27.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/trovel.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Button layoutX="202.0" layoutY="2766.0" mnemonicParsing="false" onAction="#loadMathShapesVideos" style="-fx-background-color: #f6cd5c;" text="Proceed to watch videos" textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Regular" size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

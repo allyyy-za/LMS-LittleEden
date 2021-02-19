@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="classesPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1152.0" styleClass="classesPage" stylesheets="@application.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ClassesController">
+   <children>
+      <ImageView fx:id="imgbg" fitHeight="600.0" fitWidth="1152.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="72.0">
+         <image>
+            <Image url="@../../../../Downloads/bg%201.png" />
+         </image>
+      </ImageView>
+      <Pane fx:id="navBar" layoutY="-1.0" prefHeight="71.0" prefWidth="1152.0" styleClass="navBar" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <ImageView fx:id="UserIcon" fitHeight="43.0" fitWidth="43.0" layoutX="1086.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/Wireframes/01%20Images/Avatar.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="NotifBell" fitHeight="26.0" fitWidth="43.0" layoutX="1041.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/bell.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Logo" fitHeight="36.0" fitWidth="217.0" layoutX="68.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/LITTLE%20EDEN.png" />
+               </image>
+            </ImageView>
+          <Button fx:id="gradesButton" graphicTextGap="0.0" layoutX="895.0" layoutY="15.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="101.0" styleClass="gradesButton" text="Grades" textOverrun="CLIP" />
+            <Button fx:id="classesButton" layoutX="468.0" layoutY="17.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="134.0" styleClass="classesButton" text="Classes" />
+            <Button fx:id="assignmentsButton" layoutX="619.0" layoutY="17.0" mnemonicParsing="false" styleClass="assignmentsButton" text="Assignments" />
+            <Button fx:id="quizzesButton" layoutX="779.0" layoutY="17.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="101.0" styleClass="quizzesButton" text="Quizzes" />
+         </children>
+      </Pane>
+      <ImageView fx:id="bearbgImage" fitHeight="300.0" fitWidth="315.0" layoutX="823.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/bear%202.png" />
+         </image>
+      </ImageView>
+      <ButtonBar fx:id="classesBar1" layoutX="83.0" layoutY="134.0" opacity="0.78" prefHeight="195.0" prefWidth="566.0" AnchorPane.leftAnchor="106.0" AnchorPane.topAnchor="140.0">
+        <buttons>
+          <Button fx:id="mathClassButton" mnemonicParsing="false" onAction="#loadMathPage" prefHeight="170.0" prefWidth="170.0" styleClass="mathClassButton">
+               <graphic>
+                  <ImageView fitHeight="32.0" fitWidth="97.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/MATH.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="readingClassButton" mnemonicParsing="false" onAction="#loadSecond" prefHeight="170.0" prefWidth="170.0" styleClass="readingClassButton">
+               <graphic>
+                  <ImageView fitHeight="31.0" fitWidth="157.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/READING.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="rhymesClassButton" mnemonicParsing="false" onAction="#loadrhymesPage" prefHeight="170.0" prefWidth="170.0" styleClass="rhymesClassButton">
+               <graphic>
+                  <ImageView fitHeight="37.0" fitWidth="133.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/RHYMES.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+        </buttons>
+      </ButtonBar>
+      <ButtonBar fx:id="classesBar2" layoutX="106.0" layoutY="368.0" opacity="0.78" prefHeight="195.0" prefWidth="566.0">
+         <buttons>
+            <Button fx:id="scienceClassButton" mnemonicParsing="false" prefHeight="170.0" prefWidth="170.0" styleClass="scienceClassButton">
+               <graphic>
+                  <ImageView fitHeight="36.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/SCIENCE.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="peClassButton" mnemonicParsing="false" prefHeight="170.0" prefWidth="170.0" styleClass="peClassButton">
+               <graphic>
+                  <ImageView fitHeight="36.0" fitWidth="94.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/ARTS.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="filipinoClassButton" mnemonicParsing="false" prefHeight="170.0" prefWidth="170.0" styleClass="filipinoClassButton">
+               <graphic>
+                  <ImageView fitHeight="33.0" fitWidth="144.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/FILIPINO.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+         </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>

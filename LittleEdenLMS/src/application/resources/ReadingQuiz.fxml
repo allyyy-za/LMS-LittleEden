@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="587.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane layoutX="-7.0" layoutY="9.0" prefHeight="580.0" prefWidth="600.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2634.0" prefWidth="554.0">
+               <children>
+                  <ImageView fitHeight="373.0" fitWidth="593.0" layoutX="-2.0" layoutY="2210.0">
+                     <image>
+                        <Image url="@../../bin/application/pics/bg%201.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="362.0" fitWidth="594.0" layoutX="-14.0">
+                     <image>
+                        <Image url="@../../bin/application/pics/bg%201.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="211.0" fitWidth="444.0" layoutX="77.0" layoutY="45.0">
+                     <image>
+                        <Image url="@../../bin/application/pics/blackboard.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="383.0" fitWidth="584.0" layoutY="745.0">
+                     <image>
+                        <Image url="@../../bin/application/pics/bg%201.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="383.0" fitWidth="584.0" layoutY="1128.0">
+                     <image>
+                        <Image url="@../../bin/application/pics/bg%201.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="373.0" fitWidth="593.0" layoutX="-2.0" layoutY="1511.0">
+                     <image>
+                        <Image url="@../../bin/application/pics/bg%201.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="386.0" fitWidth="600.0" layoutX="-18.0" layoutY="359.0">
+                     <image>
+                        <Image url="@../../bin/application/pics/bg%201.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="173.0" layoutY="149.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="Aa" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font></Button>
+                  <ImageView fitHeight="215.0" fitWidth="444.0" layoutX="77.0" layoutY="281.0">
+                     <image>
+                        <Image url="@../../bin/application/pics/blackboard.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="234.0" fitWidth="444.0" layoutX="82.0" layoutY="511.0">
+                     <image>
+                        <Image url="@../../bin/application/pics/blackboard.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="234.0" fitWidth="444.0" layoutX="83.0" layoutY="761.0">
+                     <image>
+                        <Image url="@../../bin/application/pics/blackboard.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="234.0" fitWidth="444.0" layoutX="92.0" layoutY="1017.0">
+                     <image>
+                        <Image url="@../../bin/application/pics/blackboard.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="234.0" fitWidth="444.0" layoutX="95.0" layoutY="1264.0">
+                     <image>
+                        <Image url="@../../bin/application/pics/blackboard.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="373.0" fitWidth="593.0" layoutX="-2.0" layoutY="1878.0">
+                     <image>
+                        <Image url="@../../bin/application/pics/bg%201.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="234.0" fitWidth="444.0" layoutX="95.0" layoutY="1511.0">
+                     <image>
+                        <Image url="@../../bin/application/pics/blackboard.png" />
+                     </image>
+                  </ImageView>
+                  <ProgressIndicator progress="0.0" />
+                  <Button layoutX="206.0" layoutY="2496.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="215.0" textFill="#1e3283" />
+                  <ImageView layoutX="239.0" layoutY="2501.0">
+                     <image>
+                        <Image url="@pics/SUBMIT1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView layoutX="233.0" layoutY="2501.0">
+                     <image>
+                        <Image url="@pics/SUBMIT.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="17.0" fitWidth="282.0" layoutX="110.0" layoutY="61.0">
+                     <image>
+                        <Image url="@pics/Fill%20in%20the%20missing%20alphabet%20letter..png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="37.0" fitWidth="233.0" layoutX="183.0" layoutY="91.0">
+                     <image>
+                        <Image url="@pics/Hh%20__%20Jj%20Kk%20Ll.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="250.0" layoutY="149.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="Ii" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="331.0" layoutY="149.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="Oo" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="37.0" fitWidth="297.0" layoutX="156.0" layoutY="325.0">
+                     <image>
+                        <Image url="@pics/Aa%20Bb%20__%20Dd%20Ee.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="171.0" layoutY="375.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="Cc" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="261.0" layoutY="375.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="Ii" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="350.0" layoutY="375.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="Ff" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="45.0" fitWidth="272.0" layoutX="163.0" layoutY="552.0">
+                     <image>
+                        <Image url="@pics/Mm%20Nn%20__%20Pp%20Qq.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="163.0" layoutY="614.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="Cc" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="261.0" layoutY="614.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="Ff" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="350.0" layoutY="614.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="Oo" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="38.0" fitWidth="281.0" layoutX="159.0" layoutY="808.0">
+                     <image>
+                        <Image url="@pics/Cc%20Dd%20Ee%20__%20Gg.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="163.0" layoutY="864.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="Cc" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="259.0" layoutY="864.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="Ff" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="350.0" layoutY="864.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="Oo" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="22.0" fitWidth="245.0" layoutX="133.0" layoutY="1038.0">
+                     <image>
+                        <Image url="@pics/Write%20the%20correct%20vowel%20to%20complete%20each%20word.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="41.0" fitWidth="75.0" layoutX="159.0" layoutY="1169.0">
+                     <image>
+                        <Image url="@pics/c_t.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="38.0" fitWidth="82.0" layoutX="156.0" layoutY="1416.0">
+                     <image>
+                        <Image url="@pics/m_p.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="234.0" fitWidth="444.0" layoutX="89.0" layoutY="1761.0">
+                     <image>
+                        <Image url="@../../bin/application/pics/blackboard.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="234.0" fitWidth="444.0" layoutX="89.0" layoutY="2005.0">
+                     <image>
+                        <Image url="@../../bin/application/pics/blackboard.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="234.0" fitWidth="444.0" layoutX="83.0" layoutY="2251.0">
+                     <image>
+                        <Image url="@../../bin/application/pics/blackboard.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="44.0" fitWidth="78.0" layoutX="158.0" layoutY="1660.0">
+                     <image>
+                        <Image url="@pics/b_d.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="37.0" fitWidth="87.0" layoutX="161.0" layoutY="1914.0">
+                     <image>
+                        <Image url="@pics/m_p.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="41.0" fitWidth="94.0" layoutX="158.0" layoutY="2151.0">
+                     <image>
+                        <Image url="@../../bin/application/pics/_ebra.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="35.0" fitWidth="85.0" layoutX="154.0" layoutY="2406.0">
+                     <image>
+                        <Image url="@../../bin/application/pics/_ox.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="17.0" fitWidth="270.0" layoutX="120.0" layoutY="2022.0">
+                     <image>
+                        <Image url="@pics/write.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="103.0" layoutX="145.0" layoutY="1064.0">
+                     <image>
+                        <Image url="@pics/cat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="117.0" fitWidth="116.0" layoutX="139.0" layoutY="1290.0">
+                     <image>
+                        <Image url="@pics/mop.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="108.0" fitWidth="117.0" layoutX="146.0" layoutY="1544.0">
+                     <image>
+                        <Image url="@pics/bed.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="104.0" fitWidth="132.0" layoutX="140.0" layoutY="1800.0">
+                     <image>
+                        <Image url="@pics/map.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="102.0" fitWidth="119.0" layoutX="145.0" layoutY="2049.0">
+                     <image>
+                        <Image url="@pics/zebra.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="113.0" fitWidth="142.0" layoutX="126.0" layoutY="2284.0">
+                     <image>
+                        <Image url="@pics/box.jfif" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="272.0" layoutY="1103.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="e" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="350.0" layoutY="1103.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="i" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="435.0" layoutY="1103.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="a" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="272.0" layoutY="1335.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="e" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="357.0" layoutY="1335.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="o" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="435.0" layoutY="1335.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="a" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="359.0" layoutY="1584.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="e" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="278.0" layoutY="1584.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="u" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="440.0" layoutY="1584.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="a" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="284.0" layoutY="1838.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="a" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="365.0" layoutY="1838.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="e" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="440.0" layoutY="1838.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="u" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="280.0" layoutY="2086.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="v" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="359.0" layoutY="2086.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="k" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="440.0" layoutY="2086.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="z" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="278.0" layoutY="2327.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="v" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="359.0" layoutY="2327.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="b" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="435.0" layoutY="2327.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="l" textFill="#a12727">
+                     <font>
+                        <Font name="Bookman Old Style" size="12.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="37.0" fitWidth="316.0" layoutX="134.0" layoutY="2.0">
+                     <image>
+                        <Image url="@pics/Untitled.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="215.0" layoutX="187.0" layoutY="8.0">
+                     <image>
+                        <Image url="@pics/READING%20(QUIZ%20%23%201).png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

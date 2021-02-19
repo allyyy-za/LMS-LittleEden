@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="458.0" prefWidth="1147.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GradesController">
+   <children>
+      <ImageView fitHeight="536.0" fitWidth="1154.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="-2.0">
+         <image>
+            <Image url="@images/background%20jungle.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="-2.0" layoutY="-2.0" prefHeight="631.0" prefWidth="1156.0" styleClass="grade-body">
+         <children>
+            <Text fill="#f6cd5c" layoutX="154.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Grades">
+               <font>
+                  <Font name="Roboto Bold" size="30.0" />
+               </font>
+            </Text>
+            <AnchorPane fx:id="assignment1" layoutX="235.0" layoutY="111.0" prefHeight="160.0" prefWidth="160.0" stylesheets="@application.css">
+               <styleClass>
+                  <String fx:value="grade-box" />
+                  <String fx:value="assignment-grade-box" />
+               </styleClass>
+               <children>
+                  <Label layoutX="9.0" layoutY="12.0" text="Assignment #1" textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Regular" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="9.0" layoutY="36.0" text="Score: " textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Regular" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="assignment1Score" layoutX="64.0" layoutY="36.0" textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Regular" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="assignment1Percentage" layoutX="9.0" layoutY="112.0" textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Regular" size="28.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="quiz1" layoutX="235.0" layoutY="285.0" prefHeight="160.0" prefWidth="160.0" stylesheets="@application.css">
+               <styleClass>
+                  <String fx:value="grade-box" />
+                  <String fx:value="quiz-grade-box" />
+               </styleClass>
+               <children>
+                  <Label layoutX="9.0" layoutY="12.0" text="Quiz #1" textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Regular" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="9.0" layoutY="36.0" text="Score: " textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Regular" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="quiz1Score" layoutX="64.0" layoutY="36.0" textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Regular" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="quiz1Percentage" layoutX="9.0" layoutY="112.0" textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Regular" size="28.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="assignment2" layoutX="418.0" layoutY="111.0" prefHeight="160.0" prefWidth="160.0" stylesheets="@application.css">
+               <styleClass>
+                  <String fx:value="grade-box" />
+                  <String fx:value="assignment-grade-box" />
+               </styleClass>
+               <children>
+                  <Label layoutX="9.0" layoutY="12.0" text="Assignment #2" textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Regular" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="9.0" layoutY="36.0" text="Score: " textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Regular" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="assignment2Score" layoutX="64.0" layoutY="36.0" textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Regular" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="assignment2Percentage" layoutX="9.0" layoutY="112.0" textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Regular" size="28.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="quiz2" layoutX="418.0" layoutY="285.0" prefHeight="160.0" prefWidth="160.0" stylesheets="@application.css">
+               <styleClass>
+                  <String fx:value="grade-box" />
+                  <String fx:value="quiz-grade-box" />
+               </styleClass>
+               <children>
+                  <Label layoutX="9.0" layoutY="12.0" text="Quiz #2" textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Regular" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="9.0" layoutY="36.0" text="Score: " textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Regular" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="quiz2Score" layoutX="64.0" layoutY="36.0" textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Regular" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="quiz2Percentage" layoutX="9.0" layoutY="112.0" textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Regular" size="28.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

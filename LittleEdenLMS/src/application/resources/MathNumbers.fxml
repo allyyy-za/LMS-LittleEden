@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="423.0" prefWidth="661.0" styleClass="welcome-banner" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MathNumbersController">
+   <children>
+      <ScrollPane prefHeight="423.0" prefWidth="661.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2969.0" prefWidth="661.0">
+               <children>
+                  <AnchorPane layoutX="45.0" layoutY="95.0" prefHeight="42.0" prefWidth="571.0" styleClass="hello-banner">
+                     <children>
+                        <Text layoutX="23.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello there, Little Eden! Today, we're going to learn about numbers!">
+                           <font>
+                              <Font name="Roboto Regular" size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <Text layoutX="236.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMBERS">
+                     <font>
+                        <Font name="Roboto Bold" size="40.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="1261.0" fitWidth="497.0" layoutX="108.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/All%20Numbers.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="183.0" layoutY="1510.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COUNTING 1-10">
+                     <font>
+                        <Font name="Roboto Bold" size="40.0" />
+                     </font>
+                  </Text>
+                  <AnchorPane layoutX="45.0" layoutY="1542.0" prefHeight="144.0" prefWidth="144.0" style="-fx-background-color: #fffcf6;" styleClass="shapes-box">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="116.0" layoutX="32.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/One.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="259.0" layoutY="1542.0" prefHeight="144.0" prefWidth="144.0" style="-fx-background-color: #fffcf6;" styleClass="shapes-box">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="116.0" layoutX="32.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Two.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="460.0" layoutY="1542.0" prefHeight="144.0" prefWidth="144.0" style="-fx-background-color: #fffcf6;" styleClass="shapes-box">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="116.0" layoutX="32.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Three.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="45.0" layoutY="1720.0" prefHeight="144.0" prefWidth="144.0" style="-fx-background-color: #fffcf6;" styleClass="shapes-box">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="116.0" layoutX="32.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Four.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="259.0" layoutY="1720.0" prefHeight="144.0" prefWidth="144.0" style="-fx-background-color: #fffcf6;" styleClass="shapes-box">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="116.0" layoutX="32.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Five.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="460.0" layoutY="1720.0" prefHeight="144.0" prefWidth="144.0" style="-fx-background-color: #fffcf6;" styleClass="shapes-box">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="116.0" layoutX="32.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Six.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="47.0" layoutY="1900.0" prefHeight="144.0" prefWidth="144.0" style="-fx-background-color: #fffcf6;" styleClass="shapes-box">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="116.0" layoutX="32.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Seven.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="261.0" layoutY="1900.0" prefHeight="144.0" prefWidth="144.0" style="-fx-background-color: #fffcf6;" styleClass="shapes-box">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="116.0" layoutX="32.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Eight.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="462.0" layoutY="1900.0" prefHeight="144.0" prefWidth="144.0" style="-fx-background-color: #fffcf6;" styleClass="shapes-box">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="116.0" layoutX="32.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Nine.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="261.0" layoutY="2078.0" prefHeight="144.0" prefWidth="144.0" style="-fx-background-color: #fffcf6;" styleClass="shapes-box">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="116.0" layoutX="32.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Ten.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <ImageView fitHeight="241.0" fitWidth="287.0" layoutX="59.0" layoutY="2290.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Butterflies.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="388.0" layoutY="2416.0" strokeType="OUTSIDE" strokeWidth="0.0" text="There are 8 violet butterflies.">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <AnchorPane layoutX="55.0" layoutY="1552.0" prefHeight="144.0" prefWidth="144.0" style="-fx-background-color: #fffcf6;" styleClass="shapes-box">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="116.0" layoutX="32.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/One.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="269.0" layoutY="1552.0" prefHeight="144.0" prefWidth="144.0" style="-fx-background-color: #fffcf6;" styleClass="shapes-box">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="116.0" layoutX="32.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Two.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="470.0" layoutY="1552.0" prefHeight="144.0" prefWidth="144.0" style="-fx-background-color: #fffcf6;" styleClass="shapes-box">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="116.0" layoutX="32.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Three.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="55.0" layoutY="1730.0" prefHeight="144.0" prefWidth="144.0" style="-fx-background-color: #fffcf6;" styleClass="shapes-box">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="116.0" layoutX="32.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Four.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="269.0" layoutY="1730.0" prefHeight="144.0" prefWidth="144.0" style="-fx-background-color: #fffcf6;" styleClass="shapes-box">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="116.0" layoutX="32.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Five.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="470.0" layoutY="1730.0" prefHeight="144.0" prefWidth="144.0" style="-fx-background-color: #fffcf6;" styleClass="shapes-box">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="116.0" layoutX="32.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Six.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <ImageView fitHeight="241.0" fitWidth="287.0" layoutX="368.0" layoutY="2574.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Girls.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="88.0" layoutY="2713.0" strokeType="OUTSIDE" strokeWidth="0.0" text="There are 6 beautiful girls.">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Button onAction="#loadMathVideosNumbers" layoutX="244.0" layoutY="2891.0" mnemonicParsing="false" text="Proceed to watch videos">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
